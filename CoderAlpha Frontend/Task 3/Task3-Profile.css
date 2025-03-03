@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #4b0082;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header .logo {
+    position: fixed;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #4b0082;
+}
+
+.about-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+.about-text h2 {
+    color: #4b0082;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+}
+
+.about-text .highlight {
+    color: #ff8c00;
+}
+
+.about-text p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #4b0082;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.btn span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.a {
+    height: 50px;
+    width: 50px;
+}
+
+.about-photo img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    flex: 1 1 45%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.skill-details {
+    max-width: 70%;
+}
+
+.education-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-content .column {
+    flex: 1;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #663399;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
